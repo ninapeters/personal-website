@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <title>Nina's awesome webpage</title>
 </head>
 
@@ -20,28 +19,36 @@
     </header>
     
     <main>
-        <p>Nice to meet you!</p>
-        <p>I'm a 27 years old web development student based in Hamburg. On this site I'll show 
-        you my progress in web development and some extra skills. Have fun and stay tuned!</p>
 
-        <section>
-            <h2>Web development skills</h2> 
-            <ul class="web-dev">
-                <li>HTML 5</li>
-                <li>Basic CSS</li>
-                <li>GitHub</li>
-            </ul>
-
-            <h2>Extras</h2>
-            <ul class="art-direction">
-                <li>Creative conception</li>
-                <li>Content conception</li>
-                <li>Corporate Design</li>
-                <li>Editorial Design</li>
-                <li>Adobe CC</li>
-                <li>Wordpress</li>
-            </ul>
+        <section class="intro">
+            <p>Nice to meet you!</p>
+            <p>I'm a 27 years old web development student based in Hamburg. On this site I'll show 
+            you my progress in web development and some extra skills. Have fun and stay tuned!</p>
         </section>
+
+        <section class="my-skills">
+            
+            <div class="web-dev">
+                <h2 class="web-dev-head">Web development skills</h2> 
+                <ul>
+                    <li>HTML 5</li>
+                    <li>Basic CSS</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+
+            <div class="art-dir">
+                <h2 class="art-dir-head">Extras</h2>
+                <ul>
+                    <li>Creative conception</li>
+                    <li>Corporate Design</li>
+                    <li>Editorial Design</li>
+                    <li>Adobe CC</li>
+                    <li>Wordpress</li>
+                </ul>
+            </div>
+
+        </section> <!-- End of "my-skills"-->
 
         <address id="to-contact">
             <a href="tel:+491711189426">+49 171 / 11 89 426</a>
@@ -49,21 +56,21 @@
         </address>
 
         <section class="social-links">
-            <div>
-                <img src="images/github-logo-transp.png" alt="">
+            <div class="logo-cards">
+                <img src="images/github-logo-transp.png" alt="" class="logo">
                 <a href="https://github.com/ninapeters/" target="_blank">GitHub</a>
             </div>
-            <div>
-                <img src="images/codepen-logo-transp.png" alt="">
+            <div class="logo-cards">
+                <img src="images/codepen-logo-transp.png" alt="" class="logo">
                 <a href="https://codepen.io/PetersNina" target="_blank">CodePen</a>
             </div>
-            <div>
-                <img src="images/xing-logo-transp.png" alt="">
+            <div class="logo-cards">
+                <img src="images/xing-logo-transp.png" alt="" class="logo">
                 <a href="https://www.xing.com/profile/Nina_Peters47" target="_blank">Xing</a>
             </div>
         </section>
 
-        <section id=to-biography>
+        <section id="to-biography" class="my-bio">
 
             <h2>What happened until now</h2>
 
@@ -75,8 +82,8 @@
             with international illustrators and many more.
             </p>
 
-            <div class="resume"></div>
-                <h2>Resume</h2>
+            <div class="resume">
+                <h2 class="resume-head">Resume</h2>
                 <ul>
                     <li>may 2019 to september 2020 – Art Director | SCHIPPER COMPANY</li>
                     <li>october 2018 to april 2019 – Art Director | REINSCLASSEN</li>
@@ -87,7 +94,7 @@
                 </ul>
             </div>
 
-        </section>
+        </section> <!-- End of "my-bio"-->
 
         <footer>
             <a href="#to-start">Do it again!</a>

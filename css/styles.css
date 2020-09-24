@@ -1,61 +1,78 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.75em;
     margin: 0;
-    color: #1c96bd;
+    width: 100%;
+    font-family: sans-serif;
 }
 
 * {
     box-sizing: border-box;
 }
 
-h1 {
+header {
     margin: 0;
-    font-size: 2.5em;
-    text-transform: uppercase;
-}
-.navigation {
-    font-size: 1.25em;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-size: 1em;
 }
 
 img {
     width: 100%;
-    padding: 0;
-    margin: 30px 0 0 0;
 }
 
-a {
-    text-transform: uppercase;
-    font-size: 0.5em;
+main {
+    display: grid;
+    grid-gap: 30px;
 }
 
-ul {
-    padding: 0;
+.intro {
+    border: lightcoral solid 2px;
 }
 
-li {
-    list-style-type: none;
-    background-color: lightcoral;
-    text-align: center;
+.my-skills {
+    border: lightcoral solid 2px;
 }
 
 .web-dev {
-    border: solid red 2px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    background-color: lightseagreen;
 }
 
-.art-direction {
-    border: solid red 2px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+.web-dev-head {
+    border: yellow solid 2px;
+}
+
+.art-dir {
+    background-color: lightseagreen;
+}
+
+.art-dir-head {
+    border: yellow solid 2px;
+}
+
+address {
+    border: lightcoral solid 2px;
+}
+
+.social-links {
+    border: lightcoral solid 2px;
+}
+
+.logo-cards {
+    background-color: lightseagreen;
+}
+
+.logo {
+    border: yellow solid 2px;
+}
+
+.my-bio {
+    border: lightcoral solid 2px;
+}
+
+.resume {
+    background-color: lightseagreen;
+}
+
+.resume-head {
+    border: yellow solid 2px;
+}
+
+footer {
+    border: lightcoral solid 2px;  
 }
