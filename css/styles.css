@@ -1,4 +1,20 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #c6d2d1;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 h1 {
-    color: #9cd6c3;
+    color: #656e6d;
     text-transform: uppercase;
+}
+
+.profile {
+    width: 100%;
+    padding: 0;
 }
