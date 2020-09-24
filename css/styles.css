@@ -1,7 +1,10 @@
 body {
     margin: 0;
     width: 100%;
+    padding: 10px;
     font-family: sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 * {
@@ -12,8 +15,48 @@ header {
     margin: 0;
 }
 
+h1 {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    line-height: 0.85em;
+}
+
+h2 { 
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+a {
+    text-transform: uppercase;
+    font-style: normal;
+    color: #ff8300;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0004ff;
+}
+
+nav {
+    margin: 10px 0 32px 0;
+}
+
+.navigation {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+.profile {
+    padding: 0;
+}
+
 img {
     width: 100%;
+    padding: 0;
 }
 
 main {
@@ -25,32 +68,57 @@ main {
     border: lightcoral solid 2px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .my-skills {
     border: lightcoral solid 2px;
 }
 
 .web-dev {
     background-color: lightseagreen;
+    padding: 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 
 .web-dev-head {
     border: yellow solid 2px;
+    grid-column: 1 / -1;
+    grid-row: 1;
 }
 
 .art-dir {
     background-color: lightseagreen;
+    padding: 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 
 .art-dir-head {
     border: yellow solid 2px;
+    grid-column: 1 / -1;
+    grid-row: 1;
 }
 
 address {
-    border: lightcoral solid 2px;
+    border-top: #000000 solid 2px;
+    padding: 15px 0;
+    text-align: center;
 }
 
 .social-links {
     border: lightcoral solid 2px;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
 }
 
 .logo-cards {
@@ -59,6 +127,8 @@ address {
 
 .logo {
     border: yellow solid 2px;
+    padding: 30px 30px 0 30px;
+
 }
 
 .my-bio {
