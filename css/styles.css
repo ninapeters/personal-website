@@ -3,7 +3,6 @@ body {
   width: 100%;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  line-height: 1.5em;
   color: #0004ff;
 }
 
@@ -13,7 +12,7 @@ body {
 
 header {
   margin: 0;
-  padding: 15px 10px;
+  padding: 30px 10px;
   background-color: #0004ff;
   color: #ffffff;
 }
@@ -29,7 +28,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-size: 1.5em;
-  line-height: initial;
+  line-height: 1em;
   letter-spacing: 0.05em;
 }
 
@@ -48,7 +47,7 @@ address {
 }
 
 footer {
-  padding: 0 10px;
+  padding: 30px 0;
   background-color: #0004ff;
 }
 
@@ -64,8 +63,12 @@ a {
   text-decoration: underline;
 }
 
+p {
+  line-height: 1.25em;
+}
+
 .navigation {
-  margin: 10px 0 32px 0;
+  margin: 45px 0 0 0;
   display: grid;
   grid-gap: 15px;
   grid-template-columns: 1fr 1fr;
@@ -73,13 +76,14 @@ a {
 }
 
 .intro {
-  border: lightcoral solid 2px;
+  /*border: lightcoral solid 2px;*/
 }
 
 .my-skills {
-  border: lightcoral solid 2px;
+  /*border: lightcoral solid 2px;*/
   background-color: #0004ff;
   color: #ffffff;
+  padding: 15px 10px;
 }
 
 .skill-list {
@@ -89,6 +93,7 @@ a {
   grid-gap: 15px;
   grid-template-columns: repeat(2, 1fr);
   font-family: 'Arvo', serif;
+  font-size: 0.85em;
 }
 
 .skill {
@@ -97,30 +102,70 @@ a {
 }
 
 .extras-line {
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .social-links {
-  border: lightcoral solid 2px;
-  padding: 15px 0;
+  /*border: lightcoral solid 2px;*/
+  padding: 15px 0 15px 0;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   justify-items: start;
 }
 
 .logo {
-  border: yellow solid 2px;
-  padding: 0 45px;
+  /*border: yellow solid 2px;*/
+  padding: 10px 60px;
 }
 
 .my-bio {
-  border: lightcoral solid 2px;
-  padding: 0 10px;
+  /*border: lightcoral solid 2px;*/
+  padding: 15px 0px;
   background-color: #0004ff;
   color: #ffffff;
 }
 
+.bio-part2 {
+  padding: 15px 10px;
+  background-color: #ffffff;
+  color: #0004ff;
+}
+
 .again {
   text-align: center;
-  padding: 30px 0;
+  padding: 0 10px;
 }
+
+.resume-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(1, 1fr 2fr);
+  align-items: baseline;
+  font-family: 'Arvo', serif;
+  font-size: 0.85em;
+}
+
+.art-dir {
+  align-self: end;
+}
+
+.j-art-dir {
+  align-self: end;
+}
+
+.des-stu {
+  align-self: end;
+}
+
+.abi {
+  align-self: end;
+}
+
+.resume-item {
+  border-bottom: #0004ff solid 0.5px;
+  padding-bottom: 5px;
+}
+
+/* */
