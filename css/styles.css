@@ -12,7 +12,7 @@ body {
 
 header {
   margin: 0;
-  padding: 30px 10px;
+  padding: 10px 10px;
   background-color: #0004ff;
   color: #ffffff;
 }
@@ -47,8 +47,9 @@ address {
 }
 
 footer {
-  padding: 30px 0;
+  padding: 15px 0;
   background-color: #0004ff;
+  text-align: center;
 }
 
 img {
@@ -63,12 +64,16 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  color: #ffffff;
+}
+
 p {
   line-height: 1.25em;
 }
 
 .navigation {
-  margin: 45px 0 0 0;
+  padding: 0 0 15px 0;
   display: grid;
   grid-gap: 15px;
   grid-template-columns: 1fr 1fr;
@@ -105,9 +110,17 @@ p {
   padding-top: 30px;
 }
 
+.contact {
+  padding: 10px 0;
+}
+
+a:hover .contact {
+  color: #0004ff;
+}
+
 .social-links {
   /*border: lightcoral solid 2px;*/
-  padding: 15px 0 15px 0;
+  padding: 25px 0 20px 0;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   justify-items: start;
@@ -131,11 +144,6 @@ p {
   color: #0004ff;
 }
 
-.again {
-  text-align: center;
-  padding: 0 10px;
-}
-
 .resume-list {
   list-style-type: none;
   padding: 0;
@@ -147,25 +155,15 @@ p {
   font-size: 0.85em;
 }
 
-.art-dir {
-  align-self: end;
-}
-
-.j-art-dir {
-  align-self: end;
-}
-
-.des-stu {
-  align-self: end;
-}
-
-.abi {
-  align-self: end;
-}
-
 .resume-item {
   border-bottom: #0004ff solid 0.5px;
   padding-bottom: 5px;
+  align-self: end;
+}
+
+.company {
+  color: #787aeb;
+  font-size: 0.6em;
 }
 
 /* */
