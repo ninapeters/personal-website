@@ -26,6 +26,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Arvo', serif;
   text-transform: uppercase;
   font-size: 1.5em;
   line-height: 1em;
@@ -97,8 +98,7 @@ p {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(2, 1fr);
-  font-family: 'Arvo', serif;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 
 .skill {
@@ -151,8 +151,7 @@ a:hover .contact {
   grid-gap: 15px;
   grid-template-columns: repeat(1, 1fr 2fr);
   align-items: baseline;
-  font-family: 'Arvo', serif;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 
 .resume-item {
