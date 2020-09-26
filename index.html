@@ -15,8 +15,8 @@
     <header>
       <h1 id="to-start">Nina Peters</h1>
       <nav class="navigation">
-        <a href="#to-contact">Contact</a>
-        <a href="#to-biography">Biography</a>
+        <a href="#to-contact" class="navi">Contact</a>
+        <a href="#to-biography" class="navi">Biography</a>
       </nav>
     </header>
     <!-- =============================== End of "header" =============================== -->
@@ -56,12 +56,16 @@
 
       <address id="to-contact">
         <h2>Get in touch</h2>
-        <a href="tel:+491711189426" class="contact phone"
-          >+49 171 / 11 89 426</a
-        >
-        <a href="mailto:peters.nina@outlook.de" class="contact"
-          >peters.nina@outlook.de</a
-        >
+        <div class="phone">
+          <p>call me:</p>
+          <a href="tel:+491711189426" class="contact">+49 171 / 11 89 426</a>
+        </div>
+        <div class="mail">
+          <p>or mail at:</p>
+          <a href="mailto:peters.nina@outlook.de" class="contact"
+            >peters.nina@outlook.de</a
+          >
+        </div>
       </address>
       <!-- =============================== End of "address" =============================== -->
 
@@ -82,8 +86,6 @@
       <div id="to-biography" class="my-bio">
         <section class="bio-part1">
           <h2>What happened until now</h2>
-
-          <p>How a passion became my profession:</p>
           <p>
             When I started as a design student I learned all the tools and
             basics to become an Art Director. As soon as I got certified I
@@ -125,14 +127,17 @@
             </li>
 
             <li class="resume-item">aug 2008 – jun 2011</li>
-            <li class="resume-item">Abitur</li>
+            <li class="resume-item">
+              Abitur <br />
+              <span class="company">Gymnasium Oldenfelde</span>
+            </li>
           </ul>
         </section>
       </div>
       <!-- =============================== End of "my-bio" =============================== -->
 
       <footer>
-        <a href="#to-start">Do it again!</a>
+        <a href="#to-start" class="back-top">Do it again!</a>
       </footer>
     </main>
   </body>

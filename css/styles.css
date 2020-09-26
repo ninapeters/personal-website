@@ -10,6 +10,8 @@ body {
   box-sizing: border-box;
 }
 
+/* ============================= Type ============================= */
+
 header {
   margin: 0;
   padding: 10px 10px;
@@ -58,22 +60,36 @@ img {
   padding: 0;
 }
 
+p {
+  margin: 10px 0;
+  line-height: 1.25em;
+}
+
+/* ============================= Link ============================= */
+
 a {
   text-transform: uppercase;
-  font-weight: 300;
   color: #ff8300;
   text-decoration: underline;
 }
 
-a:hover {
+.navi:hover {
   color: #ffffff;
 }
 
-p {
-  line-height: 1.25em;
+.contact:hover {
+  color: #0004ff;
 }
 
+.back-top:hover {
+  color: #ffffff;
+}
+
+/* ============================= Class ============================= */
+
 .navigation {
+  font-size: 1.25em;
+  font-weight: 300;
   padding: 0 0 15px 0;
   display: grid;
   grid-gap: 15px;
@@ -83,6 +99,7 @@ p {
 
 .intro {
   /*border: lightcoral solid 2px;*/
+  margin: 30px 0;
 }
 
 .my-skills {
@@ -99,23 +116,25 @@ p {
   grid-gap: 15px;
   grid-template-columns: repeat(2, 1fr);
   font-size: 0.9em;
+  align-items: baseline;
 }
 
 .skill {
   border-bottom: #ffffff solid 0.5px;
   padding-bottom: 5px;
+  align-self: end;
 }
 
 .extras-line {
   padding-top: 30px;
 }
 
-.contact {
-  padding: 10px 0;
+.phone {
+  margin: 5px 0;
 }
 
-a:hover .contact {
-  color: #0004ff;
+.mail {
+  margin: 5px 0;
 }
 
 .social-links {
@@ -136,6 +155,10 @@ a:hover .contact {
   padding: 15px 0px;
   background-color: #0004ff;
   color: #ffffff;
+}
+
+.bio-part1 {
+  margin: 0 0 30px 0;
 }
 
 .bio-part2 {
