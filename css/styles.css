@@ -25,6 +25,12 @@ header {
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  header {
+    padding: 30px 20px;
+  }
+}
+
 h1 {
   margin: 15px 0;
   text-transform: uppercase;
@@ -55,10 +61,22 @@ section {
   padding: 0 10px;
 }
 
+@media (min-width: 768px) {
+  section {
+    padding: 0px 20px;
+  }
+}
+
 address {
   text-align: center;
   font-style: normal;
   padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  address {
+    padding: 0px 20px;
+  }
 }
 
 footer {
@@ -133,6 +151,12 @@ a {
   padding: 15px 10px;
 }
 
+@media (min-width: 768px) {
+  .my-skills {
+    padding: 15px 20px;
+  }
+}
+
 .skill-list {
   list-style-type: none;
   padding: 0;
@@ -195,7 +219,7 @@ a {
 
 @media (min-width: 768px) {
   .logo {
-    padding: 10px;
+    padding: 0 15px 15px 15px;
   }
 }
 
@@ -214,6 +238,11 @@ a {
   padding: 15px 10px;
   background-color: #ffffff;
   color: #0004ff;
+}
+@media (min-width: 768px) {
+  .bio-part2 {
+    padding: 15px 20px;
+  }
 }
 
 .resume-list {
