@@ -20,14 +20,14 @@ body {
 
 header {
   margin: 0;
-  padding: 10px 10px;
+  padding: 15px 10px;
   background-color: #0004ff;
   color: #ffffff;
 }
 
 @media (min-width: 768px) {
   header {
-    padding: 30px 20px;
+    padding: 30px 20px 0 15px;
   }
 }
 
@@ -80,15 +80,12 @@ address {
 }
 
 footer {
-  padding: 15px 0;
-  background-color: #0004ff;
+  padding: 30px 0 30px 0;
+  background-color: #ff8300;
   text-align: center;
 }
 
-img {
-  width: 100%;
-  padding: 0;
-}
+/*img {  width: 100%; padding: 0; } */
 
 p {
   margin: 10px 0;
@@ -109,8 +106,22 @@ a {
   text-decoration: underline;
 }
 
+nav a {
+  margin: 15px 7.5px;
+  text-decoration: none;
+  border: #ff8300 2px solid;
+  padding: 5px;
+}
+
+@media (min-width: 685px) {
+  nav a {
+    margin: 7.5px;
+  }
+}
+
 .navi:hover {
   color: #ffffff;
+  background-color: #ff8300;
 }
 
 .contact:hover {
@@ -119,6 +130,7 @@ a {
 
 .back-top:hover {
   color: #ffffff;
+  background-color: #0004ff;
 }
 
 /* ============================= Class ============================= */
@@ -132,16 +144,48 @@ a {
 }
 
 .navigation {
-  font-size: 1.25em;
+  font-size: 1.05em;
   font-weight: 300;
   padding: 0 0 15px 0;
   display: flex;
   flex-direction: row;
 }
 
+@media (min-width: 685px) {
+  .navigation {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navigation {
+    font-size: 1.25em;
+  }
+}
+
+.profile {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    height: 400px;
+    object-fit: cover;
+    object-position: 100% -120px;
+  }
+}
+
 .intro-text {
   /*border: lightcoral solid 2px;*/
   margin: 30px 0;
+}
+
+@media (min-width: 1200px) {
+  .intro-skills {
+    display: grid;
+    row-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .my-skills {
@@ -153,7 +197,7 @@ a {
 
 @media (min-width: 768px) {
   .my-skills {
-    padding: 15px 20px;
+    padding: 5px 20px 15px 20px;
   }
 }
 
@@ -189,7 +233,7 @@ a {
 
 .mail {
   margin: 5px 0;
-  border-bottom: #0004ff solid 1px;
+  border-bottom: #0004ff solid 2px;
   padding: 0 0 30px 0;
 }
 
@@ -204,7 +248,7 @@ a {
   padding: 25px 0 20px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .social-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -214,10 +258,11 @@ a {
 
 .logo {
   /*border: yellow solid 2px;*/
+  width: 100%;
   padding: 10px 60px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .logo {
     padding: 0 15px 15px 15px;
   }
@@ -225,7 +270,7 @@ a {
 
 .my-bio {
   /*border: lightcoral solid 2px;*/
-  padding: 15px 0px;
+  padding: 15px 0 0 0;
   background-color: #0004ff;
   color: #ffffff;
 }
@@ -241,7 +286,7 @@ a {
 }
 @media (min-width: 768px) {
   .bio-part2 {
-    padding: 15px 20px;
+    padding: 5px 20px 15px 20px;
   }
 }
 
@@ -257,8 +302,7 @@ a {
 
 @media (min-width: 768px) {
   .resume-list {
-    grid-template-columns: repeat(2, 1fr 2fr);
-    flex-direction: row;
+    grid-template-columns: repeat(2, 2fr 3fr);
   }
 }
 
@@ -272,6 +316,27 @@ a {
   color: #787aeb;
   font-size: 0.6em;
   text-transform: uppercase;
+}
+
+.back-top {
+  font-size: 1.05em;
+  font-weight: 300;
+  text-decoration: none;
+  border: #0004ff 2px solid;
+  color: #0004ff;
+  padding: 5px;
+}
+
+@media (min-width: 685px) {
+  .back-top {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .back-top {
+    font-size: 1.25em;
+  }
 }
 
 /* */
