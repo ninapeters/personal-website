@@ -18,6 +18,17 @@ body {
   }
 }
 
+@media (min-width: 1650px) {
+  body {
+    font-size: 2.3em;
+  }
+}
+@media (min-width: 1920px) {
+  body {
+    font-size: 2.5em;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -42,6 +53,11 @@ header {
     padding: 45px 20px 15px 20px;
   }
 }
+@media (min-width: 1440px) {
+  header {
+    padding: 50px 30px 15px 30px;
+  }
+}
 
 h1 {
   margin: 15px 0;
@@ -54,6 +70,11 @@ h1 {
 @media (min-width: 1200px) {
   h1 {
     font-size: 3.75em;
+  }
+}
+@media (min-width: 1650px) {
+  h1 {
+    font-size: 3.85em;
   }
 }
 
@@ -77,6 +98,12 @@ h2 {
   }
 }
 
+@media (min-width: 1650px) {
+  h2 {
+    font-size: 2em;
+  }
+}
+
 main {
   margin: 0;
 }
@@ -91,6 +118,12 @@ section {
   }
 }
 
+@media (min-width: 1440px) {
+  section {
+    padding: 0px 30px;
+  }
+}
+
 address {
   text-align: center;
   font-style: normal;
@@ -100,6 +133,12 @@ address {
 @media (min-width: 768px) {
   address {
     padding: 0px 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  address {
+    padding: 0px 30px;
   }
 }
 
@@ -136,8 +175,8 @@ a {
 nav a {
   margin: 15px 7.5px;
   text-decoration: none;
-  border: #ff8300 2px solid;
-  padding: 5px;
+  border: #ff8300 4px solid;
+  padding: 5px 7.5px;
 }
 
 @media (min-width: 685px) {
@@ -195,6 +234,11 @@ nav a {
     font-size: 1.25em;
   }
 }
+@media (min-width: 1650px) {
+  .navigation {
+    font-size: 1.35em;
+  }
+}
 
 .profile {
   width: 100%;
@@ -211,6 +255,44 @@ nav a {
 @media (min-width: 1200px) {
   .profile {
     height: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .profile {
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (min-width: 1530px) {
+  .profile {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (min-width: 1650px) {
+  .profile {
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 1820px) {
+  .profile {
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 1820px) {
+  .profile {
+    height: 650px;
     object-fit: cover;
     object-position: center;
   }
@@ -233,6 +315,12 @@ nav a {
   }
 }
 
+@media (min-width: 1530px) {
+  .intro-skills {
+    margin-bottom: 85px;
+  }
+}
+
 .my-skills {
   /*border: lightcoral solid 2px;*/
   background-color: #0004ff;
@@ -250,6 +338,12 @@ nav a {
   .my-skills {
     grid-column-start: 2;
     grid-row-end: span 2;
+    padding: 15px 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .my-skills {
     padding: 15px 30px;
   }
 }
@@ -277,6 +371,13 @@ nav a {
   }
 }
 
+@media (min-width: 1650px) {
+  .skill-list {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.1em;
+  }
+}
+
 .skill {
   border-bottom: #ffffff solid 0.5px;
   padding-bottom: 5px;
@@ -293,8 +394,11 @@ nav a {
 
 .mail {
   margin: 5px 0;
-  border-bottom: #0004ff solid 2px;
   padding: 0 0 30px 0;
+}
+
+.contact-box {
+  border-bottom: #0004ff 5px dotted;
 }
 
 @media (min-width: 768px) {
@@ -304,17 +408,18 @@ nav a {
 }
 
 @media (min-width: 1200px) {
-  .contact {
+  .contact-box {
     display: flex;
     justify-content: center;
+    border-bottom: #0004ff 10px dotted;
   }
 
   .phone {
-    margin: 5px 7.5px 0px 7.5px;
+    margin: 5px 60px 0px 60px;
   }
 
   .mail {
-    margin: 5px 7.5px 0px 7.5px;
+    margin: 5px 60px 0px 60px;
   }
 }
 
@@ -328,6 +433,30 @@ nav a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .social-links {
+    padding: 25px 45px 20px 45px;
+  }
+}
+
+@media (min-width: 1530px) {
+  .social-links {
+    padding: 25px 65px 20px 65px;
+  }
+}
+
+@media (min-width: 1650px) {
+  .social-links {
+    padding: 45px 100px 35px 100px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .social-links {
+    padding: 45px 145px 35px 145px;
   }
 }
 
@@ -374,6 +503,11 @@ nav a {
     padding: 5px 20px 15px 20px;
   }
 }
+@media (min-width: 1440px) {
+  .bio-part2 {
+    padding: 5px 30px 15px 30px;
+  }
+}
 
 .resume-list {
   list-style-type: none;
@@ -397,6 +531,12 @@ nav a {
   .resume-list {
     grid-template-columns: repeat(1, 2fr 3fr);
     font-size: 0.95em;
+  }
+}
+
+@media (min-width: 1650px) {
+  .resume-list {
+    font-size: 1.1em;
   }
 }
 
@@ -437,9 +577,9 @@ nav a {
   font-size: 1.05em;
   font-weight: 300;
   text-decoration: none;
-  border: #0004ff 2px solid;
+  border: #0004ff 4px solid;
   color: #0004ff;
-  padding: 5px;
+  padding: 5px 7.5px;
 }
 
 @media (min-width: 685px) {
@@ -451,6 +591,12 @@ nav a {
 @media (min-width: 1200px) {
   .back-top {
     font-size: 1.25em;
+  }
+}
+
+@media (min-width: 1650px) {
+  .back-top {
+    font-size: 1.35em;
   }
 }
 
