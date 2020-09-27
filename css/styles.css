@@ -12,7 +12,7 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   body {
     font-size: 2em;
   }
@@ -33,7 +33,9 @@ body {
   box-sizing: border-box;
 }
 
-/* ============================= Type ============================= */
+/* ========================================================== Type ============================= */
+
+/* ============================= Header ============================= */
 
 header {
   margin: 0;
@@ -48,7 +50,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   header {
     padding: 45px 20px 15px 20px;
   }
@@ -58,6 +60,8 @@ header {
     padding: 50px 30px 15px 30px;
   }
 }
+
+/* ============================= h1 ============================= */
 
 h1 {
   margin: 15px 0;
@@ -78,6 +82,8 @@ h1 {
   }
 }
 
+/* ============================= h2 ============================= */
+
 h2 {
   font-family: 'Arvo', serif;
   text-transform: uppercase;
@@ -92,7 +98,7 @@ h2 {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   h2 {
     font-size: 1.85em;
   }
@@ -104,9 +110,13 @@ h2 {
   }
 }
 
+/* ============================= main ============================= */
+
 main {
   margin: 0;
 }
+
+/* ============================= section ============================= */
 
 section {
   padding: 0 10px;
@@ -123,6 +133,8 @@ section {
     padding: 0px 30px;
   }
 }
+
+/* ============================= address ============================= */
 
 address {
   text-align: center;
@@ -142,16 +154,20 @@ address {
   }
 }
 
+/* ============================= footer ============================= */
+
 footer {
   padding: 30px 0 30px 0;
   background-color: #ff8300;
   text-align: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   footer {
     padding: 60px 0 45px 0;
   }
 }
+
+/* ============================= p ============================= */
 
 p {
   margin: 10px 0;
@@ -164,7 +180,7 @@ p {
   }
 }
 
-/* ============================= Link ============================= */
+/* ========================================================== link ============================= */
 
 a {
   text-transform: uppercase;
@@ -185,11 +201,13 @@ nav a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   nav a {
     margin: 7.5px 12.5px;
   }
 }
+
+/* ============================= hover ============================= */
 
 .navi:hover {
   color: #ffffff;
@@ -205,7 +223,9 @@ nav a {
   background-color: #0004ff;
 }
 
-/* ============================= Class ============================= */
+/* ========================================================== class ============================= */
+
+/* ============================= main-header ============================= */
 
 @media (min-width: 685px) {
   .main-header {
@@ -214,6 +234,8 @@ nav a {
     justify-content: space-between;
   }
 }
+
+/* ============================= navigation ============================= */
 
 .navigation {
   font-size: 1.05em;
@@ -240,6 +262,8 @@ nav a {
   }
 }
 
+/* ============================= profile ============================= */
+
 .profile {
   width: 100%;
 }
@@ -252,9 +276,17 @@ nav a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .profile {
     height: 400px;
+    object-fit: cover;
+    object-position: 100% -140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile {
+    height: 425px;
     object-fit: cover;
     object-position: center;
   }
@@ -298,10 +330,14 @@ nav a {
   }
 }
 
+/* ============================= intro-text ============================= */
+
 .intro-text {
   /*border: lightcoral solid 2px;*/
   margin: 30px 0;
 }
+
+/* ============================= intro-skills ============================= */
 
 @media (min-width: 1200px) {
   .intro-skills {
@@ -315,11 +351,19 @@ nav a {
   }
 }
 
-@media (min-width: 1530px) {
+@media (min-width: 1440px) {
   .intro-skills {
     margin-bottom: 85px;
   }
 }
+
+@media (min-width: 1650px) {
+  .intro-skills {
+    margin-bottom: 100px;
+  }
+}
+
+/* ============================= my-skills ============================= */
 
 .my-skills {
   /*border: lightcoral solid 2px;*/
@@ -348,6 +392,8 @@ nav a {
   }
 }
 
+/* ============================= skill-list ============================= */
+
 .skill-list {
   list-style-type: none;
   padding: 0;
@@ -364,7 +410,7 @@ nav a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .skill-list {
     grid-template-columns: repeat(2, 1fr);
     font-size: 0.95em;
@@ -378,15 +424,21 @@ nav a {
   }
 }
 
+/* ============================= skill ============================= */
+
 .skill {
   border-bottom: #ffffff solid 0.5px;
   padding-bottom: 5px;
   align-self: end;
 }
 
+/* ============================= extras-line ============================= */
+
 .extras-line {
   padding-top: 30px;
 }
+
+/* ============================= phone/mail/contact-box ============================= */
 
 .phone {
   margin: 5px 0;
@@ -398,7 +450,7 @@ nav a {
 }
 
 .contact-box {
-  border-bottom: #0004ff 5px dotted;
+  border-bottom: #0004ff 2.5px solid;
 }
 
 @media (min-width: 768px) {
@@ -408,10 +460,16 @@ nav a {
 }
 
 @media (min-width: 1200px) {
+  .mail {
+    padding: 0 0 80px 0;
+  }
+}
+
+@media (min-width: 1200px) {
   .contact-box {
     display: flex;
     justify-content: center;
-    border-bottom: #0004ff 10px dotted;
+    border-bottom: #0004ff 5px solid;
   }
 
   .phone {
@@ -422,6 +480,8 @@ nav a {
     margin: 5px 60px 0px 60px;
   }
 }
+
+/* ============================= social-links ============================= */
 
 .social-links {
   /*border: lightcoral solid 2px;*/
@@ -444,21 +504,23 @@ nav a {
 
 @media (min-width: 1530px) {
   .social-links {
-    padding: 25px 65px 20px 65px;
+    padding: 40px 100px 35px 100px;
   }
 }
 
 @media (min-width: 1650px) {
   .social-links {
-    padding: 45px 100px 35px 100px;
+    padding: 45px 120px 55px 120px;
   }
 }
 
 @media (min-width: 1920px) {
   .social-links {
-    padding: 45px 145px 35px 145px;
+    padding: 65px 145px 80px 145px;
   }
 }
+
+/* ============================= logo ============================= */
 
 .logo {
   /*border: yellow solid 2px;*/
@@ -471,6 +533,8 @@ nav a {
     padding: 0 15px 15px 15px;
   }
 }
+
+/* ============================= my-bio ============================= */
 
 .my-bio {
   /*border: lightcoral solid 2px;*/
@@ -487,6 +551,8 @@ nav a {
     margin-top: 30px;
   }
 }
+
+/* ============================= bio-part1/bio-part2 ============================= */
 
 .bio-part1 {
   margin: 0 0 30px 0;
@@ -509,6 +575,8 @@ nav a {
   }
 }
 
+/* ============================= resume-list ============================= */
+
 .resume-list {
   list-style-type: none;
   padding: 0;
@@ -527,7 +595,7 @@ nav a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .resume-list {
     grid-template-columns: repeat(1, 2fr 3fr);
     font-size: 0.95em;
@@ -539,6 +607,8 @@ nav a {
     font-size: 1.1em;
   }
 }
+
+/* ============================= resume-item ============================= */
 
 .resume-item {
   border-bottom: #0004ff solid 0.5px;
@@ -567,11 +637,15 @@ nav a {
   }
 }
 
+/* ============================= company ============================= */
+
 .company {
   color: #787aeb;
   font-size: 0.6em;
   text-transform: uppercase;
 }
+
+/* ============================= back-top ============================= */
 
 .back-top {
   font-size: 1.05em;
