@@ -369,9 +369,15 @@ nav a {
   }
 }
 
-@media (min-width: 768px) {
-  item1 {
+@media (min-width: 1200px) {
+  .item3 {
     order: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item4 {
+    order: 3;
   }
 }
 
