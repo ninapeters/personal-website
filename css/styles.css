@@ -369,22 +369,31 @@ nav a {
   }
 }
 
-@media (min-width: 1200px) {
-  .item3 {
-    order: 2;
-  }
-}
-
-@media (min-width: 1200px) {
-  .item4 {
-    order: 3;
-  }
-}
-
 .resume-item {
   border-bottom: #0004ff solid 0.5px;
   padding-bottom: 5px;
   align-self: end;
+}
+
+@media (min-width: 768px) {
+  .res-it-3 {
+    grid-column-start: 1;
+    grid-row-end: 3;
+  }
+  .res-it-4 {
+    grid-column-start: 2;
+    grid-row-end: 3;
+  }
+
+  .res-it-5 {
+    grid-column-start: 1;
+    grid-row-end: 4;
+  }
+
+  .res-it-6 {
+    grid-column-start: 2;
+    grid-row-end: 4;
+  }
 }
 
 .company {
