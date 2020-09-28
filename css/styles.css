@@ -552,6 +552,25 @@ nav a {
   .logo {
     padding: 0 15px 15px 15px;
   }
+
+  .xing-logo {
+    position: relative;
+    top: -5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .xing-logo {
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .xing-logo {
+    position: relative;
+    top: -15px;
+  }
 }
 
 /* ============================= my-bio ============================= */
