@@ -18,5 +18,7 @@
     "url": "https://github.com/ninapeters/personal-website/issues"
   },
   "homepage": "https://github.com/ninapeters/personal-website#readme",
-  "dependencies": {}
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
