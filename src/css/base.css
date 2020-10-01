@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #0004ff;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.65em;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1650px) {
+  body {
+    font-size: 2.3em;
+  }
+}
+@media (min-width: 1920px) {
+  body {
+    font-size: 2.5em;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}

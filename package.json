@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/ninapeters/personal-website/issues"
   },
-  "homepage": "https://github.com/ninapeters/personal-website#readme"
+  "homepage": "https://github.com/ninapeters/personal-website#readme",
+  "dependencies": {}
 }
