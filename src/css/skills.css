@@ -7,3 +7,10 @@
   font-size: 0.9rem;
   font-weight: 700;
 }
+
+.skills__point {
+  position: relative;
+  top: -2px;
+  width: 8px;
+  padding-right: 4px;
+}
