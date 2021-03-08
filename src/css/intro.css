@@ -1,0 +1,10 @@
+.intro::before {
+  display: block;
+  height: 122px;
+  content: '';
+}
+
+.intro__subline {
+  display: block;
+  padding-bottom: 8px;
+}

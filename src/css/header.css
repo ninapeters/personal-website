@@ -1,0 +1,21 @@
+.header-fixed {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.header__background {
+  height: 100px;
+  background-image: url(../assets/header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header__headline {
+  padding: 16px 24px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  text-transform: lowercase;
+}

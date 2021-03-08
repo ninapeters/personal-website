@@ -9,21 +9,23 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Mono:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Nina's awesome webpage</title>
+    <title>Nina | Web Dev Newbie</title>
   </head>
   <!--  -->
   <body>
-    <header>
-      <h1 id="to-start">
-        Nina <br />
-        Peters
-      </h1>
+    <header id="to-about" class="header-fixed">
+      <div class="header__background">
+        <h1 class="header__headline">
+          Nina <br />
+          Peters
+        </h1>
+      </div>
     </header>
     <!--  -->
     <main>
-      <section>
-        <p>
-          <span>Nice to meet you!</span>
+      <section class="intro block-left">
+        <p class="continuous-text">
+          <span class="intro__subline">Nice to meet you!</span>
           I'm a 28-year-old web development newbie based in Hamburg. On this
           site I'll show you my progress and work. Have fun and stay tuned!
         </p>
@@ -62,7 +64,7 @@
         </ul>
       </section>
       <!--  -->
-      <section>
+      <section id="to-contact">
         <h2>Contact</h2>
         <ul>
           <li>GitHub</li>
@@ -75,7 +77,6 @@
       <footer>
         <nav>
           <a href="#to-about">about me</a>
-          <a href="#to-projects">projects</a>
           <a href="#to-contact">contact</a>
         </nav>
       </footer>

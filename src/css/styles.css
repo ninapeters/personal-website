@@ -1,27 +1,5 @@
 @import './base.css';
 @import './colors.css';
-@import './layout.css';
-
-/* header {
-  margin: 0;
-  padding: 15px 10px;
-  background-color: #0004ff;
-  color: #ffffff;
-}
-
-@media (min-width: 768px) {
-  header {
-    padding: 30px 20px 0 15px;
-  }
-}
-
-@media (min-width: 1000px) {
-  header {
-    padding: 45px 20px 15px 20px;
-  }
-}
-@media (min-width: 1440px) {
-  header {
-    padding: 50px 30px 15px 30px;
-  }
-} */
+@import './utility.css';
+@import './header.css';
+@import './intro.css';
