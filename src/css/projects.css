@@ -1,0 +1,19 @@
+.projects::before {
+  display: block;
+  height: 22px;
+  content: '';
+}
+
+.projects::after {
+  display: block;
+  height: 78px;
+  content: '';
+}
+
+.projects__resonance-link {
+  font-weight: 700;
+}
+
+.projects__resonance-image {
+  width: 100vw;
+}
