@@ -13,7 +13,7 @@
   </head>
   <!--  -->
   <body>
-    <header id="to-about" class="header-fixed">
+    <header class="header-fixed">
       <div class="header__background">
         <h1 class="header__headline">
           Nina <br />
@@ -23,7 +23,7 @@
     </header>
     <!--  -->
     <main>
-      <section class="intro block-left">
+      <section id="about" class="intro block-left">
         <p class="continuous-text">
           <span class="intro__subline">Nice to meet you!</span>
           I'm a 28-year-old web development newbie based in Hamburg. On this
@@ -58,7 +58,7 @@
         <ul class="skills__list">
           <li>Git</li>
           <li>npm</li>
-          <li>Agile/Scrum</li>
+          <li>Scrum</li>
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>
@@ -71,20 +71,46 @@
         </ul>
       </section>
       <!--  -->
-      <section id="to-contact" class="contact block-left">
+      <section id="contact" class="contact block-left">
         <h2 class="headline">Contact</h2>
-        <ul class="contact__list">
-          <li>GitHub</li>
-          <li>Xing</li>
-          <li>LinkedIn</li>
-          <li>E-Mail</li>
-        </ul>
+        <div class="contact__list">
+          <a href="https://github.com/ninapeters/" target="_blank"
+            ><img
+              src="assets/github.svg"
+              alt="GitHub"
+              class="contact__logo contact__logo-github"
+            />GitHub</a
+          >
+          <a href="https://www.xing.com/profile/Nina_Peters47" target="_blank"
+            ><img
+              src="assets/xing.svg"
+              alt="Xing"
+              class="contact__logo contact__logo-xing"
+            />Xing</a
+          >
+          <a
+            href="https://www.linkedin.com/in/nina-peters-7a81b2201/"
+            target="_blank"
+            ><img
+              src="assets/linkedin.svg"
+              alt="LinkedIn"
+              class="contact__logo contact__logo-linkedin"
+            />LinkedIn</a
+          >
+          <a href="mailto:peters.nina@outlook.de">
+            <img
+              src="assets/mail.svg"
+              alt="E-Mail"
+              class="contact__logo contact__logo-mail"
+            />E-Mail</a
+          >
+        </div>
       </section>
       <!--  -->
       <footer class="navigation-fixed">
         <nav class="navigation__background navigation__grid">
-          <a href="#to-about" class="navigation__link">about me</a>
-          <a href="#to-contact" class="navigation__link">contact</a>
+          <a href="#about" class="navigation__link">about me</a>
+          <a href="#contact" class="navigation__link">contact</a>
         </nav>
       </footer>
       <!--  -->
