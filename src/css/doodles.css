@@ -1,0 +1,15 @@
+.doodles-right {
+  position: relative;
+  top: -100px;
+  float: right;
+  width: 30%;
+  padding-right: 24px;
+}
+
+.doodles-left {
+  position: relative;
+  top: 104px;
+  float: left;
+  width: 30%;
+  padding-left: 24px;
+}
