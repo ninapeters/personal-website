@@ -1,3 +1,9 @@
+.contact::after {
+  display: block;
+  height: 78px;
+  content: '';
+}
+
 .contact__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
