@@ -8,3 +8,39 @@
   display: block;
   padding-bottom: 8px;
 }
+
+.intro__portrait-container {
+  position: relative;
+  top: 40px;
+}
+
+.intro__portrait {
+  position: relative;
+  z-index: 50;
+  float: left;
+  width: 30%;
+  padding-left: 24px;
+}
+
+.intro__portrait-doodle1 {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 30px;
+  width: 7%;
+}
+
+.intro__portrait-doodle2 {
+  position: absolute;
+  z-index: 100;
+  top: 82px;
+  left: 36px;
+  width: 10%;
+}
+
+.intro__portrait-doodle3 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 28%;
+}
