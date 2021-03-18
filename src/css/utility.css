@@ -23,3 +23,27 @@
   line-height: 1.4rem;
   letter-spacing: 0.03rem;
 }
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  z-index: -50;
+  position: absolute;
+  bottom: -1px;
+  left: 2px;
+  height: 3px;
+  width: 30%;
+  content: '';
+  background: var(--yellow);
+  border-radius: 1.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.underline:hover::after {
+  height: 12px;
+  width: 70%;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}

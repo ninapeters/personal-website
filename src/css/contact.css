@@ -38,3 +38,12 @@
   position: relative;
   top: 3px;
 }
+
+.contact__underline::after {
+  left: 22px;
+  width: 10%;
+}
+
+.contact__underline:hover::after {
+  width: 34%;
+}
