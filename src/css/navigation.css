@@ -25,3 +25,18 @@
   font-size: 0.9rem;
   font-weight: 700;
 }
+
+.navigation__link-text {
+  z-index: 200;
+  position: relative;
+}
+
+.navigation__underline::after {
+  z-index: 150;
+  width: 8%;
+  background: var(--white);
+}
+
+.navigation__underline:hover::after {
+  width: 22%;
+}
