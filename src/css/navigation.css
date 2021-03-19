@@ -40,3 +40,23 @@
 .navigation__underline:hover::after {
   width: 22%;
 }
+
+@media (min-width: 666px) {
+  .navigation__background {
+    height: 72px;
+  }
+
+  .navigation__link {
+    font-size: 1.1rem;
+  }
+
+  .navigation__underline::after {
+    z-index: 150;
+    width: 6%;
+    background: var(--white);
+  }
+
+  .navigation__underline:hover::after {
+    width: 16%;
+  }
+}

@@ -38,3 +38,24 @@
   left: 18px;
   width: 60%;
 }
+
+@media (min-width: 666px) {
+  .projects__resonance-image-container {
+    padding: 8px 36px 22px;
+  }
+
+  .projects__resonance-image {
+    width: 100%;
+  }
+
+  .projects__resonance-doodle1 {
+    left: 24px;
+    width: 68%;
+  }
+
+  .projects__resonance-doodle2 {
+    top: 62px;
+    left: 18px;
+    width: 54%;
+  }
+}

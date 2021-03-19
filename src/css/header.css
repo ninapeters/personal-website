@@ -19,3 +19,15 @@
   line-height: 1.6rem;
   text-transform: lowercase;
 }
+
+@media (min-width: 666px) {
+  .header__background {
+    height: 164px;
+  }
+
+  .header__headline {
+    padding: 20px 32px;
+    font-size: 3.6rem;
+    line-height: 2.6rem;
+  }
+}

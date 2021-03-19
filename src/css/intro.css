@@ -44,3 +44,35 @@
   left: 12px;
   width: 28%;
 }
+
+@media (min-width: 666px) {
+  .intro::before {
+    height: 186px;
+  }
+
+  .intro__portrait-container {
+    top: 4px;
+  }
+
+  .intro__portrait {
+    padding-left: 36px;
+    width: 26%;
+  }
+
+  .intro__portrait-doodle1 {
+    left: 44px;
+    width: 6%;
+  }
+
+  .intro__portrait-doodle2 {
+    top: 124px;
+    left: 50px;
+    width: 8%;
+  }
+
+  .intro__portrait-doodle3 {
+    top: 6px;
+    left: 22px;
+    width: 24%;
+  }
+}

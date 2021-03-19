@@ -14,3 +14,17 @@
   width: 8px;
   padding-right: 4px;
 }
+
+@media (min-width: 666px) {
+  .skills__list {
+    gap: 4px 12px;
+    padding: 0 32px 20px;
+    font-size: 1.1rem;
+  }
+
+  .skills__point {
+    top: -2px;
+    width: 14px;
+    padding-right: 8px;
+  }
+}

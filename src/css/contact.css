@@ -47,3 +47,33 @@
 .contact__underline:hover::after {
   width: 34%;
 }
+
+@media (min-width: 666px) {
+  .contact__list {
+    gap: 4px 12px;
+    padding: 0 32px 20px;
+    font-size: 1.1rem;
+  }
+
+  .contact__logo {
+    width: 24px;
+    padding-right: 4px;
+  }
+
+  .contact__logo-xing {
+    top: 2.5px;
+  }
+
+  .contact__logo-linkedin {
+    top: 1.5px;
+  }
+
+  .contact__underline::after {
+    left: 26px;
+    width: 8%;
+  }
+
+  .contact__underline:hover::after {
+    width: 26%;
+  }
+}
