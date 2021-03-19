@@ -14,7 +14,7 @@
   padding-left: 24px;
 }
 
-@media (min-width: 666px) {
+@media (min-width: 590px) {
   .doodles-right {
     top: -180px;
     width: 30%;
@@ -25,5 +25,19 @@
     top: 80px;
     width: 30%;
     padding-left: 48px;
+  }
+}
+
+@media (min-width: 760px) {
+  .doodles-right {
+    top: -170px;
+    width: 35%;
+    padding-right: 84px;
+  }
+
+  .doodles-left {
+    top: 72px;
+    width: 30%;
+    padding-left: 60px;
   }
 }

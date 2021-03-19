@@ -39,7 +39,7 @@
   width: 60%;
 }
 
-@media (min-width: 666px) {
+@media (min-width: 590px) {
   .projects__resonance-image-container {
     padding: 8px 36px 22px;
   }
@@ -57,5 +57,22 @@
     top: 62px;
     left: 18px;
     width: 54%;
+  }
+}
+
+@media (min-width: 760px) {
+  .projects__resonance-image-container {
+    padding: 8px 72px 22px;
+  }
+
+  .projects__resonance-doodle1 {
+    left: 54px;
+    width: 60%;
+  }
+
+  .projects__resonance-doodle2 {
+    top: 92px;
+    left: 42px;
+    width: 46%;
   }
 }

@@ -48,7 +48,7 @@
   width: 34%;
 }
 
-@media (min-width: 666px) {
+@media (min-width: 590px) {
   .contact__list {
     gap: 4px 12px;
     padding: 0 32px 20px;
@@ -75,5 +75,35 @@
 
   .contact__underline:hover::after {
     width: 26%;
+  }
+}
+
+@media (min-width: 760px) {
+  .contact__list {
+    gap: 6px 18px;
+    padding: 0 60px 20px;
+    font-size: 1.2rem;
+  }
+
+  .contact__logo {
+    width: 28px;
+    padding-right: 8px;
+  }
+
+  .contact__logo-xing {
+    top: 3px;
+  }
+
+  .contact__logo-linkedin {
+    top: 2px;
+  }
+
+  .contact__underline::after {
+    left: 30px;
+    width: 12%;
+  }
+
+  .contact__underline:hover::after {
+    width: 24%;
   }
 }
