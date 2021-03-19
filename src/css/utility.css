@@ -87,6 +87,12 @@
   .continuous-text {
     padding: 0 60px 28px;
     font-size: 1.4rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .headline {
+    padding: 32px 60px 38px;
   }
 }
