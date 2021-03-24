@@ -107,3 +107,33 @@
     width: 24%;
   }
 }
+
+@media (min-width: 950px) {
+  .contact__list {
+    gap: 6px 18px;
+    padding: 0 90px 20px;
+    font-size: 1.4rem;
+  }
+
+  .contact__logo {
+    width: 28px;
+    padding-right: 6px;
+  }
+
+  .contact__logo-github {
+    top: 1px;
+  }
+
+  .contact__logo-linkedin {
+    top: 1px;
+  }
+
+  .contact__underline::after {
+    left: 32px;
+    width: 8%;
+  }
+
+  .contact__underline:hover::after {
+    width: 20%;
+  }
+}

@@ -41,3 +41,17 @@
     padding-left: 60px;
   }
 }
+
+@media (min-width: 950px) {
+  .doodles-right {
+    top: -280px;
+    width: 30%;
+    padding-right: 124px;
+  }
+
+  .doodles-left {
+    top: 50px;
+    width: 30%;
+    padding-left: 90px;
+  }
+}

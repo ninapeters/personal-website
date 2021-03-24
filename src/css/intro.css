@@ -132,3 +132,20 @@
     height: 220px;
   }
 }
+
+@media (min-width: 950px) {
+  .intro__portrait-container {
+    top: -180px;
+  }
+
+  .intro__portrait-doodle1 {
+    left: 114px;
+    width: 5%;
+  }
+
+  .intro__portrait-doodle2 {
+    top: 158px;
+    left: 110px;
+    width: 8%;
+  }
+}

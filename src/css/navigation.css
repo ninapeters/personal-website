@@ -80,3 +80,21 @@
     width: 14%;
   }
 }
+
+@media (min-width: 950px) {
+  .navigation__grid {
+    padding: 0 90px;
+  }
+
+  .navigation__link {
+    font-size: 1.4rem;
+  }
+
+  .navigation__underline::after {
+    width: 2%;
+  }
+
+  .navigation__underline:hover::after {
+    width: 8%;
+  }
+}

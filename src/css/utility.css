@@ -96,3 +96,29 @@
     padding: 32px 60px 38px;
   }
 }
+
+@media (min-width: 950px) {
+  .block-left-wide {
+    width: 70%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .block-right-wide {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .headline {
+    padding: 42px 90px 38px;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+
+  .continuous-text {
+    padding: 0 90px 32px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
