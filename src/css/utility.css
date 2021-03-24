@@ -4,6 +4,11 @@
   scroll-behavior: smooth;
 }
 
+.max-width {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .block-left {
   width: 70%;
   margin-left: 0;
@@ -126,5 +131,25 @@
     padding: 0 90px 32px;
     font-size: 1.6rem;
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 1022px) {
+  .headline {
+    padding: 42px 120px 40px;
+  }
+
+  .continuous-text {
+    padding: 0 120px 34px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headline {
+    padding: 48px 180px 40px;
+  }
+
+  .continuous-text {
+    padding: 0 180px 38px;
   }
 }

@@ -45,11 +45,11 @@
   top: 48px;
   left: 18px;
   width: 60%;
-  animation: animate-doodle1 8s infinite ease-in-out;
+  animation: animate-doodle2 8s infinite ease-in-out;
   animation-fill-mode: forwards;
 }
 
-@keyframes animate-doodle1 {
+@keyframes animate-doodle2 {
   40% {
     transform: rotate(4deg) scale(1.05);
   }
@@ -111,5 +111,22 @@
     top: 68px;
     left: 40px;
     width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects__resonance-image-container {
+    padding: 10px 180px 24px;
+  }
+
+  .projects__resonance-doodle1 {
+    left: 140px;
+    width: 50%;
+  }
+
+  .projects__resonance-doodle2 {
+    top: 90px;
+    left: 100px;
+    width: 30%;
   }
 }

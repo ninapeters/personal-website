@@ -98,3 +98,15 @@
     width: 8%;
   }
 }
+
+@media (min-width: 1022px) {
+  .navigation__grid {
+    padding: 0 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navigation__grid {
+    padding: 0 180px;
+  }
+}
