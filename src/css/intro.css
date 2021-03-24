@@ -28,6 +28,17 @@
   top: 0;
   left: 30px;
   width: 7%;
+  animation: animate-doodle1 8s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle1 {
+  25% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(4deg);
+  }
 }
 
 .intro__portrait-doodle2 {
@@ -36,6 +47,14 @@
   top: 82px;
   left: 36px;
   width: 10%;
+  animation: animate-doodle2 8s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle2 {
+  40% {
+    transform: rotate(-4deg) scale(1.05);
+  }
 }
 
 .intro__portrait-doodle3 {
@@ -43,6 +62,14 @@
   top: 6px;
   left: 12px;
   width: 28%;
+  animation: animate-doodle3 8s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle3 {
+  50% {
+    transform: rotate(12deg) scale(1.1);
+  }
 }
 
 @media (min-width: 590px) {

@@ -30,6 +30,14 @@
   top: 0;
   left: 12px;
   width: 72%;
+  animation: animate-doodle1 8s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle1 {
+  60% {
+    transform: rotate(-8deg) scale(0.95);
+  }
 }
 
 .projects__resonance-doodle2 {
@@ -37,6 +45,14 @@
   top: 48px;
   left: 18px;
   width: 60%;
+  animation: animate-doodle1 8s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle1 {
+  40% {
+    transform: rotate(4deg) scale(1.05);
+  }
 }
 
 @media (min-width: 590px) {
