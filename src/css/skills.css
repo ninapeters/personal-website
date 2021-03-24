@@ -57,3 +57,9 @@
     padding: 0 180px 20px;
   }
 }
+
+@media (min-width: 1650px) {
+  .skills__list {
+    padding: 0 226px 20px;
+  }
+}

@@ -130,3 +130,37 @@
     width: 30%;
   }
 }
+
+@media (min-width: 1600px) {
+  .projects__resonance-image-container {
+    padding: 10px 240px 24px;
+  }
+
+  .projects__resonance-doodle1 {
+    left: 180px;
+    width: 50%;
+  }
+
+  .projects__resonance-doodle2 {
+    top: 90px;
+    left: 140px;
+    width: 30%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .projects__resonance-image-container {
+    padding: 10px 260px 24px;
+  }
+
+  .projects__resonance-doodle1 {
+    left: 200px;
+    width: 50%;
+  }
+
+  .projects__resonance-doodle2 {
+    top: 90px;
+    left: 160px;
+    width: 30%;
+  }
+}

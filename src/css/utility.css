@@ -4,11 +4,6 @@
   scroll-behavior: smooth;
 }
 
-.max-width {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
 .block-left {
   width: 70%;
   margin-left: 0;
@@ -151,5 +146,15 @@
 
   .continuous-text {
     padding: 0 180px 38px;
+  }
+}
+
+@media (min-width: 1650px) {
+  .headline {
+    padding: 48px 226px 40px;
+  }
+
+  .continuous-text {
+    padding: 0 226px 38px;
   }
 }

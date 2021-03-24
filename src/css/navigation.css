@@ -110,3 +110,9 @@
     padding: 0 180px;
   }
 }
+
+@media (min-width: 1200px) {
+  .navigation__grid {
+    padding: 0 226px;
+  }
+}
