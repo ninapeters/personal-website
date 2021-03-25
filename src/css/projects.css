@@ -76,3 +76,87 @@
     width: 42%;
   }
 }
+
+@media (min-width: 1200px) {
+  .projects__resonance-image {
+    padding: 0 12vw 1.5vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 60%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 42%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .projects__resonance-image {
+    padding: 0 14vw 2vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 58%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .projects__resonance-image {
+    padding: 0 18vw 4vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 55%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1550px) {
+  .projects__resonance-image {
+    padding: 0 22vw 5vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 50%;
+    left: 14vw;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 30%;
+    left: 12vw;
+  }
+}
+
+@media (min-width: 1750px) {
+  .projects__resonance-doodle1 {
+    left: 16vw;
+  }
+
+  .projects__resonance-doodle2 {
+    left: 14vw;
+  }
+}
+
+@media (min-width: 2000px) {
+  .projects__resonance-image {
+    padding: 0 26vw 6vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 46%;
+    left: 16vw;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 28%;
+    left: 14vw;
+  }
+}

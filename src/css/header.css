@@ -6,14 +6,14 @@
 
 .header__background {
   height: 100%;
-  margin-left: 2vw;
+  margin-left: 0.5vw;
   background-image: url(../assets/header.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .header__headline {
-  padding: 4vw 6vw 6vw;
+  padding: 4vw 7.5vw 5.5vw;
   font-family: 'Roboto Mono', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
@@ -23,6 +23,7 @@
 
 @media (min-width: 500px) {
   .header__headline {
+    padding: 2.5vw 7.5vw 4vw;
     font-size: 2.1rem;
     line-height: 1.6rem;
   }
@@ -30,6 +31,7 @@
 
 @media (min-width: 600px) {
   .header__headline {
+    padding: 2.5vw 7.5vw 4vw;
     font-size: 2.5rem;
     line-height: 1.9rem;
   }
@@ -37,6 +39,7 @@
 
 @media (min-width: 700px) {
   .header__headline {
+    padding: 2.5vw 7.5vw 4.25vw;
     font-size: 2.7rem;
     line-height: 2.1rem;
   }
@@ -50,8 +53,12 @@
 }
 
 @media (min-width: 900px) {
+  .header__background {
+    margin-left: 2vw;
+  }
+
   .header__headline {
-    padding-bottom: 5vw;
+    padding: 2vw 6vw 3.5vw;
     font-size: 3.1rem;
     line-height: 2.5rem;
   }
@@ -70,5 +77,63 @@
     padding-bottom: 4vw;
     font-size: 3.3rem;
     line-height: 2.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__background {
+    margin-left: 4vw;
+  }
+
+  .header__headline {
+    padding: 2vw 6vw 3vw;
+    font-size: 3.5rem;
+    line-height: 2.9rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .header__background {
+    margin-left: 5vw;
+  }
+
+  .header__headline {
+    padding: 2vw 7vw 3vw;
+  }
+}
+
+@media (min-width: 1550px) {
+  .header__background {
+    margin-left: 9.5vw;
+  }
+
+  .header__headline {
+    padding: 2vw 6.5vw 2.75vw;
+    font-size: 3.6rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 1750px) {
+  .header__background {
+    margin-left: 11vw;
+  }
+
+  .header__headline {
+    padding: 2vw 5vw 2.75vw;
+    font-size: 3.6rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .header__background {
+    margin-left: 12vw;
+  }
+
+  .header__headline {
+    padding: 2vw 6vw 2.75vw;
+    font-size: 3.8rem;
+    line-height: 3.2rem;
   }
 }

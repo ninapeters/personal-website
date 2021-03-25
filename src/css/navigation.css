@@ -63,3 +63,27 @@
     font-size: 1.5rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .navigation__position {
+    padding-left: 10vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  .navigation__position {
+    padding-left: 12vw;
+  }
+}
+
+@media (min-width: 1550px) {
+  .navigation__position {
+    padding-left: 16vw;
+  }
+}
+
+@media (min-width: 2000px) {
+  .navigation__position {
+    padding-left: 18vw;
+  }
+}
