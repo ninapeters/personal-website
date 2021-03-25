@@ -5,74 +5,70 @@
 }
 
 .header__background {
-  height: 100px;
+  height: 100%;
+  margin-left: 2vw;
   background-image: url(../assets/header.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .header__headline {
-  padding: 16px 24px;
+  padding: 4vw 6vw 6vw;
   font-family: 'Roboto Mono', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
-  line-height: 1.6rem;
+  line-height: 1.4rem;
   text-transform: lowercase;
 }
 
-@media (min-width: 590px) {
-  .header__background {
-    height: 164px;
-  }
-
+@media (min-width: 500px) {
   .header__headline {
-    padding: 20px 32px;
+    font-size: 2.1rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .header__headline {
+    font-size: 2.5rem;
+    line-height: 1.9rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .header__headline {
+    font-size: 2.7rem;
+    line-height: 2.1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .header__headline {
+    font-size: 2.9rem;
+    line-height: 2.3rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__headline {
+    padding-bottom: 5vw;
+    font-size: 3.1rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__headline {
     font-size: 3.3rem;
-    line-height: 2.4rem;
-  }
-}
-
-@media (min-width: 760px) {
-  .header__background {
-    background-image: url(../assets/header-760.svg);
-  }
-
-  .header__headline {
-    padding: 26px 58px;
-  }
-}
-
-@media (min-width: 950px) {
-  .header__background {
-    height: 20vw;
-    max-height: 180px;
-    background-image: url(../assets/header-950.svg);
-  }
-
-  .header__headline {
-    padding: 32px 86px;
-    font-size: 3.5rem;
     line-height: 2.7rem;
   }
 }
 
-@media (min-width: 1022px) {
+@media (min-width: 1100px) {
   .header__headline {
-    padding: 32px 118px;
-    font-size: 3.8rem;
-    line-height: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .header__background {
-    max-height: 210px;
-    background-image: url(../assets/header-950.svg);
-  }
-
-  .header__headline {
-    padding: 56px 178px;
-    font-size: 4.4rem;
-    line-height: 3.4rem;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+    font-size: 3.3rem;
+    line-height: 2.7rem;
   }
 }

@@ -1,12 +1,6 @@
-.projects::before {
-  display: block;
-  height: 22px;
-  content: '';
-}
-
 .projects::after {
   display: block;
-  height: 78px;
+  height: 40px;
   content: '';
 }
 
@@ -20,147 +14,65 @@
 }
 
 .projects__resonance-image {
-  position: relative;
   z-index: 50;
+  position: relative;
   width: 100vw;
 }
 
 .projects__resonance-doodle1 {
   position: absolute;
   top: 0;
-  left: 12px;
-  width: 72%;
-  animation: animate-doodle1 8s infinite ease-in-out;
+  left: 6vw;
+  width: 70%;
+  animation: animate-doodle1 12s infinite ease-in-out;
   animation-fill-mode: forwards;
 }
 
 @keyframes animate-doodle1 {
-  60% {
+  50% {
     transform: rotate(-8deg) scale(0.95);
   }
 }
 
 .projects__resonance-doodle2 {
   position: absolute;
-  top: 48px;
-  left: 18px;
-  width: 60%;
-  animation: animate-doodle2 8s infinite ease-in-out;
+  top: 10vw;
+  left: 4vw;
+  width: 50%;
+  animation: animate-doodle2 6s infinite ease-in-out;
   animation-fill-mode: forwards;
 }
 
 @keyframes animate-doodle2 {
-  40% {
+  50% {
     transform: rotate(4deg) scale(1.05);
   }
 }
 
-@media (min-width: 590px) {
-  .projects__resonance-image-container {
-    padding: 8px 36px 22px;
-  }
-
+@media (min-width: 800px) {
   .projects__resonance-image {
-    width: 100%;
+    padding: 0 8vw 1vw;
   }
 
   .projects__resonance-doodle1 {
-    left: 24px;
-    width: 68%;
+    width: 65%;
   }
 
   .projects__resonance-doodle2 {
-    top: 62px;
-    left: 18px;
-    width: 54%;
+    width: 45%;
   }
 }
 
-@media (min-width: 760px) {
-  .projects__resonance-image-container {
-    padding: 8px 72px 22px;
+@media (min-width: 1000px) {
+  .projects__resonance-image {
+    padding: 0 10vw 1.5vw;
   }
 
   .projects__resonance-doodle1 {
-    left: 54px;
-    width: 60%;
+    width: 62%;
   }
 
   .projects__resonance-doodle2 {
-    top: 92px;
-    left: 42px;
-    width: 46%;
-  }
-}
-
-@media (min-width: 950px) {
-  .projects::before {
-    height: 30px;
-  }
-
-  .projects__resonance-image-container {
-    padding: 8px 90px 22px;
-  }
-
-  .projects__resonance-doodle1 {
-    left: 90px;
-    width: 60%;
-  }
-
-  .projects__resonance-doodle2 {
-    top: 68px;
-    left: 40px;
-    width: 40%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .projects__resonance-image-container {
-    padding: 10px 180px 24px;
-  }
-
-  .projects__resonance-doodle1 {
-    left: 140px;
-    width: 50%;
-  }
-
-  .projects__resonance-doodle2 {
-    top: 90px;
-    left: 100px;
-    width: 30%;
-  }
-}
-
-@media (min-width: 1600px) {
-  .projects__resonance-image-container {
-    padding: 10px 240px 24px;
-  }
-
-  .projects__resonance-doodle1 {
-    left: 180px;
-    width: 50%;
-  }
-
-  .projects__resonance-doodle2 {
-    top: 90px;
-    left: 140px;
-    width: 30%;
-  }
-}
-
-@media (min-width: 1700px) {
-  .projects__resonance-image-container {
-    padding: 10px 260px 24px;
-  }
-
-  .projects__resonance-doodle1 {
-    left: 200px;
-    width: 50%;
-  }
-
-  .projects__resonance-doodle2 {
-    top: 90px;
-    left: 160px;
-    width: 30%;
+    width: 42%;
   }
 }
