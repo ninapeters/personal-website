@@ -4,164 +4,280 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:ital,wght@0,300;0,500;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto+Mono:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Nina's awesome webpage</title>
+    <title>Nina | Web Dev</title>
   </head>
-
+  <!--  -->
   <body>
-    <header class="main-header">
-      <h1 id="to-start">
-        Nina <br />
-        Peters
-      </h1>
-      <nav class="navigation">
-        <a href="#to-contact" class="navi">Contact</a>
-        <a href="#to-biography" class="navi">Biography</a>
-      </nav>
+    <header class="header-fixed">
+      <div class="header__background">
+        <h1 class="header__headline">
+          Nina <br />
+          Peters
+        </h1>
+      </div>
     </header>
-    <!-- =============================== End of "header" =============================== -->
-
-    <main>
-      <div class="intro-skills">
-        <img src="images/nina-peters-profile.jpg" alt="" class="profile" />
-
-        <section class="intro-text">
-          <p>Nice to meet you!</p>
-          <p>
-            I'm a 27-year-old web development student based in Hamburg. On this
-            site I'll show you my progress in web development and some extra
-            skills.
-          </p>
-          <p>Have fun and stay tuned!</p>
-        </section>
-        <!-- =============================== End of "intro" =============================== -->
-
-        <section class="my-skills">
-          <h2>Development</h2>
-          <ul class="skill-list skill-list-dev">
-            <li class="skill">HTML 5</li>
-            <li class="skill">Basic CSS</li>
-            <li class="skill">GitHub</li>
-          </ul>
-
-          <h2 class="extras-line">Some extras</h2>
-          <ul class="skill-list">
-            <li class="skill">Wordpress</li>
-            <li class="skill">Adobe CC</li>
-            <li class="skill">Creative conception</li>
-            <li class="skill">Corporate design</li>
-            <li class="skill">Editorial design</li>
-          </ul>
-        </section>
+    <!--  -->
+    <main class="scroll-behavior">
+      <!--  -->
+      <div class="doodle-container">
+        <img
+          src="assets/doodle1-1.svg"
+          alt=""
+          class="doodle-right doodle-animate-1"
+        />
+        <img
+          src="assets/doodle1-2.svg"
+          alt=""
+          class="doodle-right doodle-layer doodle-animate-2"
+        />
       </div>
-      <!-- =============================== End of "my-skills" =============================== -->
-
-      <address id="to-contact">
-        <h2>Get in touch</h2>
-        <section class="contact-box">
-        <div class="phone">
-          <p>call me:</p>
-          <a href="tel:+491711189426" class="contact">+49 171 / 11 89 426</a>
-        </div>
-        <div class="mail">
-          <p>or mail at:</p>
-          <a href="mailto:peters.nina@outlook.de" class="contact"
-            >peters.nina@outlook.de</a
-          >
-        </section>
-        </div>
-      </address>
-      <!-- =============================== End of "address" =============================== -->
-
-      <section class="social-links">
-        <a href="https://github.com/ninapeters/" target="_blank"
-          ><img src="images/github-or.png" alt="GitHub" class="logo"
-        /></a>
-
-        <a href="https://www.xing.com/profile/Nina_Peters47" target="_blank"
-          ><img src="images/xing-or.png" alt="Xing" class="logo xing-logo"
-        /></a>
-
-        <a href="https://codepen.io/PetersNina" target="_blank"
-          ><img src="images/codepen-or.png" alt="Codepen" class="logo"
-        /></a>
+      <!--  -->
+      <section id="nina" class="container-distance-top block-left">
+        <p class="continuous-text">
+          <span class="intro__subline">Nice to meet you!</span>
+          I'm a 28-year-old web development newbie based in Hamburg, Germany. On
+          this site I'll show you my progress and work. Have fun and stay tuned!
+        </p>
       </section>
-      <!-- =============================== End of "social-links" =============================== -->
-
-      <div id="to-biography" class="my-bio">
-        <section class="bio-part1">
-          <h2>What happened until now</h2>
-          <p>
-            When I started as a design student I learned all the tools and
-            basics to become an Art Director. As soon as I got certified I
-            started working in different agencies.
+      <!--  -->
+      <section>
+        <div class="block-left">
+          <h2 class="headline">
+            Web Development – <br />
+            my motivation
+          </h2>
+          <p class="continuous-text">
+            Learning a craft to bring my own ideas to life has always been my
+            greatest motivation. For me, coding is the craft of the future.
           </p>
-          <p>
-            I have worked on a diverse range of jobs: from the content conception and
-            design to the implementation of classic and digital advertising.
-            Including the supervision of photo and film shootings, working with
-            international illustrators and many more.
+        </div>
+        <!--  -->
+        <div class="intro__portrait-container">
+          <img
+            src="assets/doodle-port-3.svg"
+            alt=""
+            class="intro__portrait-doodle3"
+          />
+          <img src="assets/portrait.png" alt="" class="intro__portrait" />
+          <img
+            src="assets/doodle-port-2.svg"
+            alt=""
+            class="intro__portrait-doodle2"
+          />
+          <img
+            src="assets/doodle-port-1.svg"
+            alt=""
+            class="intro__portrait-doodle1"
+          />
+        </div>
+        <!--  -->
+        <div class="block-right">
+          <p class="continuous-text">
+            In my previous Job as an Art Director I consistently had contact
+            with the world of programming. As my curiosity grew so did the
+            desire for understanding code.
           </p>
-        </section>
-
-        <section class="bio-part2">
-          <h2>Resume</h2>
-          <ul class="resume-list">
-            <li class="resume-item res-it-1">right now</li>
-            <li class="resume-item res-it-2">
-              <span class="company">neuefische</span> <br />
-              Web development
-            </li>
-
-            <li class="resume-item res-it-3">
-              may 2019 –<br />
-              sep 2020
-            </li>
-            <li class="resume-item res-it-4">
-              <span class="company">SCHIPPER COMPANY</span><br />
-              Art direction
-            </li>
-
-            <li class="resume-item res-it-5">
-              oct 2018 –<br />
-              apr 2019
-            </li>
-            <li class="resume-item res-it-6">
-              <span class="company">REINSCLASSEN</span><br />
-              Art direction
-            </li>
-
-            <li class="resume-item res-it-7">
-              jan 2016 –<br />
-              sep 2018
-            </li>
-            <li class="resume-item res-it-8">
-              <span class="company">REINSCLASSEN</span><br />
-              Junior art direction
-            </li>
-
-            <li class="resume-item res-it-9">apr 2012 – <br />sep 2015</li>
-            <li class="resume-item res-it-10">
-              <span class="company">Kunstschule Wandsbek</span><br />
-              Design studies
-            </li>
-
-            <li class="resume-item res-it-11">aug 2008 – <br />jun 2011</li>
-            <li class="resume-item res-it-12">
-              <span class="company">Gymnasium Oldenfelde</span><br />
-              Abitur
-            </li>
-          </ul>
-        </section>
+          <p class="continuous-text">
+            With the bootcamp of neuefische I gained the opportunity to build
+            the foundation for my new job as a frontend web developer.
+          </p>
+        </div>
+      </section>
+      <!--  -->
+      <div class="doodle-container">
+        <img
+          src="assets/doodle2-1.svg"
+          alt=""
+          class="doodle-left doodle-animate-1"
+        />
+        <img
+          src="assets/doodle2-2.svg"
+          alt=""
+          class="doodle-left doodle-layer doodle-animate-1"
+        />
+        <img
+          src="assets/doodle2-3.svg"
+          alt=""
+          class="doodle-left doodle-layer doodle-animate-2"
+        />
       </div>
-      <!-- =============================== End of "my-bio" =============================== -->
-
-      <footer>
-        <a href="#to-start" class="back-top">Do it again!</a>
+      <!--  -->
+      <section class="block-right container-distance-bottom">
+        <h2 class="headline">Web Dev skills</h2>
+        <ul class="list-grid">
+          <li>
+            <img src="assets/point.svg" alt="" class="skills__bulletpoint" />Git
+          </li>
+          <li>
+            <img src="assets/point.svg" alt="" class="skills__bulletpoint" />npm
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />Scrum
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />HTML5
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />CSS3
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />JavaScript
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />React.js
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />Node.js
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />Express
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />MongoDB
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />JEST
+          </li>
+          <li>
+            <img
+              src="assets/point.svg"
+              alt=""
+              class="skills__bulletpoint"
+            />Cypress
+          </li>
+        </ul>
+      </section>
+      <!--  -->
+      <section class="contact block-left container-distance-bottom">
+        <h2 class="headline">Contact</h2>
+        <div class="list-grid">
+          <a
+            href="https://github.com/ninapeters/"
+            target="_blank"
+            class="underline contact__underline"
+            ><img
+              src="assets/github.svg"
+              alt="GitHub"
+              class="contact__logo contact__logo-github"
+            />GitHub</a
+          >
+          <a
+            href="https://www.xing.com/profile/Nina_Peters47"
+            target="_blank"
+            class="underline contact__underline"
+            ><img
+              src="assets/xing.svg"
+              alt="Xing"
+              class="contact__logo contact__logo-xing"
+            />Xing</a
+          >
+          <a
+            href="https://www.linkedin.com/in/nina-peters-7a81b2201/"
+            target="_blank"
+            class="underline contact__underline"
+            ><img
+              src="assets/linkedin.svg"
+              alt="LinkedIn"
+              class="contact__logo contact__logo-linkedin"
+            />LinkedIn</a
+          >
+          <a
+            href="mailto:peters.nina@outlook.de"
+            class="underline contact__underline"
+          >
+            <img
+              src="assets/mail.svg"
+              alt="E-Mail"
+              class="contact__logo contact__logo-mail"
+            />E-Mail</a
+          >
+        </div>
+      </section>
+      <!--  -->
+      <section class="projects container-distance-bottom">
+        <div class="block-right">
+          <h2 class="headline">Projects</h2>
+          <p class="continuous-text">
+            <a
+              href="https://github.com/ninapeters/resonance"
+              class="projects__resonance-link underline"
+              >resonance</a
+            >
+            was created as part of my graduation from the neuefische coding
+            bootcamp.
+          </p>
+        </div>
+        <div class="projects__resonance-image-container">
+          <img
+            src="assets/doodle-r1.svg"
+            alt=""
+            class="projects__resonance-doodle1"
+          />
+          <img
+            src="assets/doodle-r2.svg"
+            alt=""
+            class="projects__resonance-doodle2"
+          />
+          <img
+            src="assets/resonance_mock.png"
+            alt="Mockup: Drei Screens der resonance App"
+            class="projects__resonance-image"
+          />
+        </div>
+        <p class="block-right continuous-text">More to come...</p>
+      </section>
+      <!--  -->
+      <footer class="navigation-fixed">
+        <nav class="navigation__background navigation__position">
+          <a
+            href="#nina"
+            class="navigation__link underline navigation__underline"
+            ><span class="navigation__link-text">back to top</span></a
+          >
+        </nav>
       </footer>
+      <!--  -->
     </main>
   </body>
 </html>

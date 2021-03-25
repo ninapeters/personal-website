@@ -1,0 +1,6 @@
+.skills__bulletpoint {
+  position: relative;
+  top: -2px;
+  width: 8px;
+  padding-right: 4px;
+}

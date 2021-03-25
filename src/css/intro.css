@@ -1,0 +1,148 @@
+.intro__subline {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.intro__portrait-container {
+  position: relative;
+  top: 8px;
+}
+
+.intro__portrait {
+  z-index: 50;
+  position: relative;
+  float: left;
+  width: 30%;
+  padding-left: 8vw;
+}
+
+.intro__portrait-doodle1 {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 9vw;
+  width: 6%;
+  animation: animate-doodle1 6s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle1 {
+  50% {
+    transform: rotate(-4deg);
+  }
+}
+
+.intro__portrait-doodle2 {
+  z-index: 100;
+  position: absolute;
+  top: 19vw;
+  left: 12vw;
+  width: 10%;
+  animation: animate-doodle2 6s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle2 {
+  40% {
+    transform: rotate(-4deg) scale(1.05);
+  }
+}
+
+.intro__portrait-doodle3 {
+  position: absolute;
+  top: 1vw;
+  left: 4vw;
+  width: 26%;
+  animation: animate-doodle3 12s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle3 {
+  50% {
+    transform: rotate(12deg) scale(1.1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro__portrait {
+    padding-left: 10vw;
+  }
+
+  .intro__portrait-doodle1 {
+    left: 11vw;
+  }
+
+  .intro__portrait-doodle2 {
+    left: 14vw;
+  }
+
+  .intro__portrait-doodle3 {
+    left: 6vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  .intro__portrait {
+    padding-left: 12vw;
+  }
+
+  .intro__portrait-doodle1 {
+    left: 13vw;
+    width: 5%;
+  }
+
+  .intro__portrait-doodle2 {
+    top: 17vw;
+    left: 15vw;
+    width: 8%;
+  }
+
+  .intro__portrait-doodle3 {
+    left: 8vw;
+    width: 22%;
+  }
+}
+
+@media (min-width: 1550px) {
+  .intro__portrait {
+    padding-left: 16vw;
+  }
+
+  .intro__portrait-doodle1 {
+    left: 17vw;
+    width: 4%;
+  }
+
+  .intro__portrait-doodle2 {
+    top: 14vw;
+    left: 19vw;
+    width: 6%;
+  }
+
+  .intro__portrait-doodle3 {
+    left: 14vw;
+    width: 18%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .intro__portrait {
+    padding-left: 18vw;
+  }
+
+  .intro__portrait-doodle1 {
+    left: 19vw;
+    width: 3%;
+  }
+
+  .intro__portrait-doodle2 {
+    top: 11.5vw;
+    left: 20vw;
+    width: 5%;
+  }
+
+  .intro__portrait-doodle3 {
+    left: 16vw;
+    width: 15%;
+  }
+}

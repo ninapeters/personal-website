@@ -1,0 +1,83 @@
+.contact__logo {
+  width: 20px;
+  padding-right: 4px;
+}
+
+.contact__logo-github {
+  position: relative;
+  top: 2px;
+}
+
+.contact__logo-xing {
+  position: relative;
+  top: 2px;
+}
+
+.contact__logo-linkedin {
+  position: relative;
+  top: 1px;
+}
+
+.contact__logo-mail {
+  position: relative;
+  top: 3px;
+}
+
+.contact__underline::after {
+  left: 22px;
+  width: 10%;
+}
+
+.contact__underline:hover::after {
+  width: 34%;
+}
+
+@media (min-width: 600px) {
+  .contact__logo {
+    width: 26px;
+    padding-right: 6px;
+  }
+
+  .contact__logo-xing {
+    top: 2.5px;
+  }
+
+  .contact__logo-mail {
+    top: 3.5px;
+  }
+
+  .contact__underline::after {
+    left: 30px;
+  }
+
+  .contact__underline:hover::after {
+    width: 26%;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact__logo {
+    width: 30px;
+    padding-right: 8px;
+  }
+
+  .contact__underline:hover::after {
+    width: 24%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact__logo {
+    width: 34px;
+    padding-right: 10px;
+  }
+
+  .contact__underline::after {
+    left: 38px;
+    width: 8%;
+  }
+
+  .contact__underline:hover::after {
+    width: 20%;
+  }
+}

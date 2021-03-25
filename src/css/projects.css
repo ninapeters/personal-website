@@ -1,0 +1,162 @@
+.projects::after {
+  display: block;
+  height: 40px;
+  content: '';
+}
+
+.projects__resonance-link {
+  font-weight: 700;
+}
+
+.projects__resonance-image-container {
+  position: relative;
+  padding: 8px 0 22px;
+}
+
+.projects__resonance-image {
+  z-index: 50;
+  position: relative;
+  width: 100vw;
+}
+
+.projects__resonance-doodle1 {
+  position: absolute;
+  top: 0;
+  left: 6vw;
+  width: 70%;
+  animation: animate-doodle1 12s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle1 {
+  50% {
+    transform: rotate(-8deg) scale(0.95);
+  }
+}
+
+.projects__resonance-doodle2 {
+  position: absolute;
+  top: 10vw;
+  left: 4vw;
+  width: 50%;
+  animation: animate-doodle2 6s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-doodle2 {
+  50% {
+    transform: rotate(4deg) scale(1.05);
+  }
+}
+
+@media (min-width: 800px) {
+  .projects__resonance-image {
+    padding: 0 8vw 1vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 65%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .projects__resonance-image {
+    padding: 0 10vw 1.5vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 62%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 42%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects__resonance-image {
+    padding: 0 12vw 1.5vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 60%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 42%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .projects__resonance-image {
+    padding: 0 14vw 2vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 58%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .projects__resonance-image {
+    padding: 0 18vw 4vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 55%;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1550px) {
+  .projects__resonance-image {
+    padding: 0 22vw 5vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 50%;
+    left: 14vw;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 30%;
+    left: 12vw;
+  }
+}
+
+@media (min-width: 1750px) {
+  .projects__resonance-doodle1 {
+    left: 16vw;
+  }
+
+  .projects__resonance-doodle2 {
+    left: 14vw;
+  }
+}
+
+@media (min-width: 2000px) {
+  .projects__resonance-image {
+    padding: 0 26vw 6vw;
+  }
+
+  .projects__resonance-doodle1 {
+    width: 46%;
+    left: 16vw;
+  }
+
+  .projects__resonance-doodle2 {
+    width: 28%;
+    left: 14vw;
+  }
+}

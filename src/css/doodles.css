@@ -1,0 +1,100 @@
+.doodle-container {
+  position: relative;
+}
+
+.doodle-right {
+  position: relative;
+  float: right;
+  top: 40vw;
+  right: 8vw;
+  width: 30%;
+  padding: 0 8vw;
+}
+
+.doodle-left {
+  position: relative;
+  float: left;
+  top: 4vw;
+  left: 8vw;
+  width: 30%;
+  padding-right: 10vw;
+}
+
+.doodle-layer {
+  position: absolute;
+}
+
+.doodle-animate-1 {
+  animation: doodle-animate-1 6s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.doodle-animate-2 {
+  animation: doodle-animate-2 6s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes doodle-animate-1 {
+  40% {
+    transform: translateY(6px);
+  }
+}
+
+@keyframes doodle-animate-2 {
+  60% {
+    transform: translateY(8px);
+  }
+}
+
+@media (min-width: 600px) {
+  .doodle-right {
+    top: 20vw;
+    right: 8vw;
+    width: 30%;
+    padding: 0 8vw;
+  }
+
+  .doodle-left {
+    top: 14vw;
+    left: 8vw;
+    width: 30%;
+    padding-right: 14vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .doodle-right {
+    top: 20vw;
+    right: 8vw;
+    width: 30%;
+    padding: 0 10vw;
+  }
+
+  .doodle-left {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .doodle-right {
+    top: 15vw;
+    right: 10vw;
+    padding: 0 11vw;
+  }
+}
+
+@media (min-width: 1600px) {
+  .doodle-right {
+    top: 10vw;
+    right: 12vw;
+    padding: 0 11.5vw;
+  }
+}
+
+@media (min-width: 1850px) {
+  .doodle-right {
+    top: 10vw;
+    right: 14vw;
+    padding: 0 12vw;
+  }
+}
