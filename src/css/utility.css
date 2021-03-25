@@ -35,9 +35,9 @@
 .list-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1vw 3vw;
+  gap: 1vw 1vw;
   font-family: 'Roboto Mono', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 700;
 }
 
